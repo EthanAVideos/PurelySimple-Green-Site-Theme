@@ -1,0 +1,339 @@
+/*default.css - All Rights Reserved EthanA Videos, GHM & Affiliates - Date Created: 7/5/24 - Latest Update Date: 7/5/24 - Version: 1.0.0 */
+
+* { /* * apply's for every element, only use for certain things (Like removing the default padding & margin of the page / elements)*/
+	padding: 0; /* Removed Default Padding */
+	margin: 0; /* Removed Default Margin */
+}
+
+.normal-a {
+	transition: 1s; /* transitioning to the hover effect  */
+}
+
+.normal-a:hover { /* transitioning the a tag linked text when hovered to green  */
+	transition: 1s;
+	color: #2EF724
+} 
+
+
+
+/* NAVIGATION */
+
+#navigation-container {
+	margin-top: 1.3%;
+	margin-bottom: 3.3%;
+	width: 35%;
+	height: 15%;
+}
+
+.navigation-container-a {
+	background-color: #2EF724;
+	padding: 15px 20px 15px 20px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: black;
+	font-variant: small-caps;
+	font-weight: bolder;
+	transition: 1s;
+}
+
+.navigation-container-a:hover {
+	transition: 1s;
+	background-color: #26C71E;
+}
+
+/* MAIN CONTENT */
+
+#main-content-container {
+	width: 75%;
+}
+
+/* BUTTONS */
+
+.btn-single {
+	background-color: #2EF724;
+	padding: 15px 355px 15px 355px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: black;
+	font-variant: small-caps;
+	font-weight: bolder;
+	transition: 1s;
+}
+
+.btn-single:hover {
+	transition: 1s;
+	background-color: #26C71E;
+}
+
+.btn-single-div {
+	margin: 15px 0px 15px 0px;
+}
+
+.btn-double {
+	background-color: #2EF724;
+	padding: 15px 95px 15px 95px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: black;
+	font-variant: small-caps;
+	font-weight: bolder;
+	transition: 1s;
+}
+
+.btn-double:hover {
+	transition: 1s;
+	background-color: #26C71E;
+}
+
+.btn-double-div {
+	margin: 15px 0px 15px 0px;
+}
+
+.btn-multiline {
+	background-color: #2EF724;
+	padding: 15px 20px 15px 20px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: black;
+	font-variant: small-caps;
+	font-weight: bolder;
+	transition: 1s;
+}
+
+.btn-multiline:hover {
+	transition: 1s;
+	background-color: #26C71E;
+}
+
+.btn-multiline-div {
+	margin: 15px 0px 15px 0px;
+}
+
+
+/* FOOTER */
+
+#footer-container {
+	position: fixed;
+	left: 40%;
+	bottom: 0%;
+	background-color: white;
+	padding: 5px 5px 5px 5px;
+	border-radius: 15px;
+	
+}
+
+#footer-container {
+	margin-top: 15px;
+}
+
+
+/* MOBILE STYLING */
+
+@media screen and (max-width:1080px) and (min-width: 999px) {
+	/* DISABLING HOVER EFFECTS  */
+	
+	.normal-a:hover {
+		color: blue;
+	} 
+	
+	.btn-multiline:hover , .btn-double:hover , .btn-single:hover , .navigation-container-a:hover {
+		background-color: #2EF724;
+	}
+	/* BUTTONS */
+	
+	.navigation-container-a {
+		padding: 15px 15px 15px 15px;
+	}
+	
+	.btn-single {
+		padding: 15px 255px 15px 255px;
+	}
+	
+	.btn-double {
+		padding: 15px 65px 15px 65px;
+	}
+	
+	.btn-multiline {
+		padding: 15px 3px 15px 3px;
+	}
+	
+	/* FOOTER */
+
+	#footer-container {
+		left: 34%;
+	}
+}
+
+@media screen and (max-width: 998px) and (min-width: 760px) {
+	/* DISABLING HOVER EFFECTS  */
+	
+	.normal-a:hover {
+		color: blue;
+	} 
+	
+	.btn-multiline:hover , .btn-double:hover , .btn-single:hover , .navigation-container-a:hover {
+		background-color: #2EF724;
+	}
+	/* BUTTONS */
+	
+	.navigation-container-a {
+		padding: 8px 8px 8px 8px;
+	}
+	
+	#navigation-container {
+		width: 45%;
+	}
+	
+	.btn-single {
+		padding: 15px 255px 15px 255px;
+	}
+	
+	.btn-double {
+		padding: 15px 35px 15px 35px;
+	}
+	
+	.btn-multiline {
+		padding: 15px 2px 15px 2px; /* For this screen size you can only have three buttons inline with 24 letters each, need anymore they must be on a new line or restyled */
+	}
+	
+	#main-content-container {
+		width: 95%;
+	}
+	
+	/* FOOTER */
+
+	#footer-container {
+		left: 28%;
+	}
+}
+
+@media screen and (max-width: 667px) and (min-width: 600px) {
+	/* DISABLING HOVER EFFECTS  */
+	
+	.normal-a:hover {
+		color: blue;
+	} 
+	
+	.btn-multiline:hover , .btn-double:hover , .btn-single:hover , .navigation-container-a:hover {
+		background-color: #2EF724;
+	}
+	/* BUTTONS */
+	
+	.navigation-container-a {
+		padding: 8px 8px 8px 8px;
+	}
+	
+	#navigation-container {
+		width: 85%;
+	}
+	
+	.btn-single {
+		padding: 15px 135px 15px 135px;
+	}
+	
+	.btn-double {
+		padding: 15px 35px 15px 35px;
+	}
+	
+	.btn-multiline {
+		padding: 15px 2px 15px 2px; /* For this screen size you can only have three buttons inline with 15 letters each, need anymore they must be on a new line or restyled */
+	}
+	
+	#main-content-container {
+		width: 95%;
+	}
+	
+	/* FOOTER */
+
+	#footer-container {
+		left: 18%;
+	}
+}
+
+@media screen and (max-width: 428px) and (min-width: 399px) {
+	/* DISABLING HOVER EFFECTS  */
+	
+	.normal-a:hover {
+		color: blue;
+	} 
+	
+	.btn-multiline:hover , .btn-double:hover , .btn-single:hover , .navigation-container-a:hover {
+		background-color: #2EF724;
+	}
+	/* BUTTONS */
+	
+	.navigation-container-a {
+		padding: 8px 8px 8px 8px;
+	}
+	
+	#navigation-container {
+		width: 85%;
+	}
+	
+	.btn-single {
+		padding: 15px 72px 15px 72px;
+	}
+	
+	.btn-double {
+		padding: 15px 2px 15px 2px; /* For this screen size button must be less then 13 letters or just disable them for this size " display: none; "  */
+		/* display: none; */
+	}
+	
+	.btn-multiline {
+		padding: 15px 2px 15px 2px; /* For this screen size button must be less then 10 letters or just disable them for this size " display: none; "*/
+	}
+	
+	#main-content-container {
+		width: 95%;
+	}
+	
+	/* FOOTER */
+
+	#footer-container {
+		left: 5%;
+	}
+}
+
+@media screen and (max-width: 398px) and (min-width: 360px) {
+	/* DISABLING HOVER EFFECTS  */
+	
+	.normal-a:hover {
+		color: blue;
+	} 
+	
+	.btn-multiline:hover , .btn-double:hover , .btn-single:hover , .navigation-container-a:hover {
+		background-color: #2EF724;
+	}
+	/* BUTTONS */
+	
+	.navigation-container-a {
+		padding: 8px 8px 8px 8px;
+	}
+	
+	#navigation-container {
+		width: 85%;
+	}
+	
+	.btn-single {
+		padding: 15px 72px 15px 72px;
+	}
+	
+	.btn-double {
+		padding: 15px 2px 15px 2px; /* For this screen size button must be less then 13 letters or just disable them for this size " display: none; "  */
+		/* display: none; */
+	}
+	
+	.btn-multiline {
+		padding: 15px 2px 15px 2px; /* For this screen size button must be less then 10 letters or just disable them for this size " display: none; "*/
+	}
+	
+	#main-content-container {
+		width: 95%;
+	}
+	
+	/* FOOTER */
+
+	#footer-container {
+		left: 0%;
+	}
+}
